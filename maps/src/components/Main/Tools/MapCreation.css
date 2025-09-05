@@ -1,0 +1,23 @@
+.modal-leaflet {
+    position: absolute;
+    right: 50px;
+    z-index: 1000;
+    color: gray;
+    margin-right: 1%;
+    max-height: 400px; /* Fixed height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    background-color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.legend-element h6 {
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.legend-element div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

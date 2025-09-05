@@ -1,0 +1,109 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul .li {
+  cursor: pointer;
+  padding: 5%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ul .li:hover {
+  background-color: rgb(62, 82, 104);
+  border-right: 3px solid rgb(3, 109, 141);
+  padding: 5%;
+  transform: translateY(-3px);
+  color: #4495ca;
+}
+/* mapbox css */
+.mapboxgl-canvas{
+width: 100vw !important;
+height: 100vh !important;
+}
+/* .canvas_container{
+  width:80vw !important;
+  height: 20vh !important;
+} */
+/* .building{
+  height: 40px;
+  width: 40px;
+  z-index: 900;
+  position: absolute;
+  top: 10px;
+  left: 70px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+} */
+
+/* .chart{
+  height: 40px;
+  width: 40px;
+  z-index: 900;
+  position: absolute;
+  top: 10px;
+  left: 114px;
+  border-radius: 100%;
+  border: none;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+} */
+
+/* .layer-control{
+  height: 35px;
+  width: 34px;
+  z-index: 900;
+  position: absolute;
+  top: 294px;
+  left: 97.5vw;
+  border-radius: 21%;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+} */
+
+
+.layer-control {
+  position: absolute;
+  z-index: 1000; /* Ensure it's above other controls */
+  top: 295px; /* Adjust this value to position it correctly */
+  right: 8px; /* Position it on the right side */
+  background-color: #fff; /* Optional: Make button background semi-transparent */
+  border: none; /* Optional: Remove border */
+  border-radius: 10%; /* Optional: Make button round */
+  padding: 9px; /* Optional: Adjust padding for size */
+  color: black;
+}
+
+
+/* CSS for popup */
+
+.mapboxgl-popup {
+  border-radius: 8px; 
+  padding: 10px; 
+  background-color: white; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.mapboxgl-popup ul {
+  list-style-type: none; 
+  padding: 0; 
+  margin: 0; 
+}
+.mapboxgl-popup button{
+  color: red;
+}

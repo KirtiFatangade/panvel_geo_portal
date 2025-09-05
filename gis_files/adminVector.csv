@@ -1,0 +1,220 @@
+name,file_name,color,stroke
+Malegaon_Water_Supply,Malegaon/Water and Sewerage/Water_supply_network_points.geojson,#3942ec,0
+Malegaon_Water_Bodies_Polygon,Malegaon/Water and Sewerage/Water_Bodies_Polygon.geojson,#78c3d2,0
+Malegaon_Storm_Water,Malegaon/Water and Sewerage/Storm_Water_Drainage_Network_Points.geojson,#487bb6,#325780
+Malegaon_Sewerage,Malegaon/Water and Sewerage/Sewerage_Network_Points.geojson,#146573,#f7f7f7
+Malegaon_Manhole,Malegaon/Water and Sewerage/chambers_manhole.geojson,#9e0000,#ffffff
+Malegaon_Bus,Malegaon/Transportation/Bus Stop.geojson,#FF5733,0
+Malegaon_Road_Polygon,Malegaon/Transportation/Road Polygon.geojson,#6f3637,0
+Malegaon_Road_Line,Malegaon/Transportation/Road Line.geojson,#d6541d,0
+Malegaon_Bridges,Malegaon/Transportation/Bridges.geojson,#00ff00,0
+Malegaon_Power_Supply_Network_Points,Malegaon/Electric Powerline and Point of Interets/Power_Supply_Netwotk_Points.geojson,#b0deec,0
+mnpsnl,Malegaon/Electric Powerline and Point of Interets/Power_Supply_Network_Line.geojson,#e8718d,0
+Malegaon_High_Mast,Malegaon/Electric Powerline and Point of Interets/High Mast.geojson,#af2a5d,0
+Malegaon_Communication,Malegaon/Electric Powerline and Point of Interets/Cell_tower_WiFi_Hotspots_Public_Telephone_Booth.geojson,#1db7aa,0
+Malegaon_ATM,Malegaon/Electric Powerline and Point of Interets/ATM_and metrological station.geojson,#85b66f,#000000
+Malegaon_Boundary,Malegaon/Administrative Boundaries and Buildings/Administrative_BoundariesConvertedAdministrative_Boundaries.geojson,#000000,0
+Malegaon_Adm_Boundary,Malegaon/Administrative Boundaries and Buildings/Admin_Boundaries.geojson,#08e8de,0
+Malegaon_Building,Malegaon/Administrative Boundaries and Buildings/Buildings.geojson,#9f0000,0
+Malegaon_Street_Light,Malegaon/Electric Powerline and Point of Interets/street light poles.geojson,#7de3ff,#232323
+Manyad_Boundary,Manyaad/Watershed_Boundary.geojson,#000000,0
+Manyad_River_poly,Manyaad/River_poly.geojson,#19c2ff,#0a4470
+Manyad_Village,Manyaad/River_poly.geojson,#000000,#0a4470
+Manyad_Watershed,Manyaad/River_poly.geojson,#0000FF,#0a4470
+Manyad_Streams,Manyaad/Streams_All.geojson,#0d96bb,0
+Manyad_Building,Manyaad/Buildings_Manyad_watershed.geojson,#9f0000,0
+Manyad_River_Buff_100m,Manyaad/River_Buffer/River_Buff_100m.geojson,#E8E627,0
+Manyad_River_Buff_70m,Manyaad/River_Buffer/River_Buff_70m.geojson,#EF14D1,0
+Manyad_River_Buff_30m,Manyaad/River_Buffer/River_Buff_30m.geojson,#E8E627,0
+Manyad_River_Buff_10m,Manyaad/River_Buffer/River_Buff_10m.geojson,#0000ff,0
+Manyad_building_100m_prone,Manyaad/Flood prone buildings/building_100m_prone.geojson,#00FF00,0
+Manyad_building_70m_prone,Manyaad/Flood prone buildings/building_70m_prone.geojson,#902e59,0
+Manyad_building_30m_prone,Manyaad/Flood prone buildings/building_30m_prone.geojson,#dbe852,0
+Manyad_building_10m_prone,Manyaad/Flood prone buildings/building_10m_prone.geojson,#ff0000,0
+Agrani_Boundary,Agrani/watershed_Boundary.geojson,#000000,0
+Agrani_Dam,Agrani/Dam locations.geojson,#131888,0
+Agrani_Stream,Agrani/Stream.geojson,#0d96bb,0
+Agrani_Green_Cover_2014,Agrani/Green_Cover_Vector/2014 green cover vector.geojson,#41935b,0
+Agrani_Green_Cover_2023,Agrani/Green_Cover_Vector/2023 green cover vector.geojson,#03571e,0
+at2014,Agrani/NDVI/NDVI2014_tiles,0
+at2023,Agrani/NDVI/NDVI2023_tiles,0
+Satara_Boundary,Satara/Boundary.geojson,#000000,0
+Satara_Election_Ward,Satara/Election ward boundaries.geojson,#a8aa14,0
+Satara_Building,Satara/buildings.geojson,#9f0000,0
+Satara_Green,Satara/Green_Cover.geojson,#14950f,#10460e
+Satara_Contours,Satara/Contours.geojson,#6e4510,0
+Satara_Roads,Satara/Roads.geojson,#d6541d,0
+Satara_Tree,Satara/tree.geojson,#155d0d,#194513
+Satara_Canal,Satara/WaterBodies/Canal.geojson,#4b78eb,#1b384d
+Satara_River,Satara/WaterBodies/River.geojson,#19c2ff,#0a4470
+Satara_Waterbodies,Satara/WaterBodies/Waterbodies.geojson,#1767df,#000000
+simage,Satara/Satara_Img_Tiles,0,0
+Pune_Ground_Survey,Pune/Ground_Survey_Pop.geojson,#dbe852,0
+Pune_Demographic,Pune/Demegraphic_Layer.geojson,#000000,0
+Nadi_Boundary,Pune/Demegraphic_Layer.geojson,#000000,0
+Pune_Building,Pune/Building.geojson,#9f0000,0
+Pune_road_track,Pune/Roads/track.geojson,#EF14D1,0
+Pune_road_tertiary,Pune/Roads/tertiary.geojson,#F27DBF,0
+Pune_road_steps,Pune/Roads/steps.geojson,#08e8de,0
+Pune_road_service,Pune/Roads/service.geojson,#AC5B31,0
+Pune_road_secondary,Pune/Roads/secondary.geojson,#F0A439,0
+Pune_road_residential,Pune/Roads/residential.geojson,#F30D0D,0
+Pune_road_primary,Pune/Roads/primary.geojson,#C42A08,0
+Pune_road_path,Pune/Roads/path.geojson,#902e59,0
+Pune_road_living_street,Pune/Roads/living_street.geojson,#08e8de,0
+Pune_road_footway,Pune/Roads/footway.geojson,#0000ff,0
+Pune_point_toilet,Pune/Point/toilet.geojson,#dbe852,0
+Pune_point_school,Pune/Point/school.geojson,#a3c4eb,0
+Pune_point_restaurant,Pune/Point/restaurant.geojson,#00FF00,0
+Pune_point_post_office,Pune/Point/post_office.geojson,#FF5733,0
+Pune_point_post_box,Pune/Point/post_box.geojson,#902e59,0
+Pune_point_police,Pune/Point/police.geojson,#08e8de,0
+Pune_point_hotel,Pune/Point/hotel.geojson,#9f0000,0
+Pune_point_hostel,Pune/Point/hostel.geojson,#FF6262,0
+Pune_point_community_centre,Pune/Point/community_centre.geojson,#3FEF14,0
+Pune_point_comms_tower,Pune/Point/comms_tower.geojson,#FF5733,0
+Pune_point_college,Pune/Point/college.geojson,#902e59,0
+Pune_landuse_scrub,Pune/Landuse/scrub.geojson,#dbe852,0
+Pune_landuse_retail,Pune/Landuse/retail.geojson,#91522D,0
+Pune_landuse_residential,Pune/Landuse/residential.geojson,#4DAF4A,0
+Pune_landuse_ground,Pune/Landuse/recreation_ground.geojson,#F781BF,0
+Pune_landuse_park,Pune/Landuse/park.geojson,#00FF00,0
+Pune_landuse_nature,Pune/Landuse/nature_reserve.geojson,#902e59,0
+Pune_landuse_military,Pune/Landuse/military.geojson,#a3c4eb,0
+Pune_landuse_industrial,Pune/Landuse/industrial.geojson,#FF7F00,0
+Pune_landuse_health,Pune/Landuse/heath.geojson,#9f0000,0
+Pune_landuse_commercial,Pune/Landuse/commercial.geojson,#367CCC,0
+Pune_cemetery,Pune/Landuse/cemetery.geojson,#902e59,0
+Srimage,Shrijab/2021_07_Tiles,0,0
+Shrijab_Bounds,Shrijab/AOI.geojson,#ffffff,0
+Shrijab_Vehicle,Shrijab/OD/Vehicle.geojson,#00FFFF,0
+Shrijab_Parking,Shrijab/OD/Parking.geojson,#00FF00,0
+Shrijab_Implacement,Shrijab/OD/Emplacement.geojson,#FF7F00,0
+Shrijab_Trenches,Shrijab/Segmentation/Trenches.geojson,#d6541d,0
+Shrijab_Road,Shrijab/Segmentation/Road.geojson,#367CCC,0
+Shrijab_Bund,Shrijab/Segmentation/Bund.geojson,#902e59,0
+Panvel_Boundary,Panvel_Boundary.shp,#000000,0
+ward1,Division1.shp,#000000,0
+ward2,Division2.shp,#000000,0
+ward3,Division3.shp,#000000,0
+ward4,Division4.shp,#000000,0
+Panvel_CIDCO,Panvel_And_CIDCO_Jurisdiction.shp,#a75153,0
+Panvel_Road,Road_Network.shp,#d6541d,0
+Panvel_Railways,Railway_Network.shp,#000000,0
+Panvel_Total_Builtup,Modified_Total.geojson,#9f0000,0
+Panvel_Tree,Tree.geojson,#155d0d,0
+Panvel_Water,Water.shp,#19c2ff,0
+Panvel_Mangrove,Mangrove_Swamps.geojson,#4DAF4A,0
+Panvel_Division,Division.shp,#a7ca72,0
+Panvel_Sectors,Sectors.geojson,#731c7b,0
+plot,Plot.shp,#a3c4eb,0
+vill,Village_Boundary.shp,#4789e7,0
+Panvel_Prabhag,Prabhag.shp,#2dbf82,0
+Panvel_Nov_2019_vector,Join_Nov_2019.geojson,#FF6262,0
+Panvel_Nov_2020_vector,Join_Nov_2020.geojson,#08e8de,0
+Panvel_Nov_2021_vector,Nov_2021.geojson,#08e8de,0
+Panvel_May_2020_vector,Join_May_2020.geojson,#3FEF14,0
+Panvel_May_2021_vector,Join_May_2021.geojson,#E8E627,0
+Panvel_May_2022_vector,May_2022.geojson,#EF14D1,0
+Panvel_Jan_2023_vector,Jan_2023.geojson,#E8E627,0
+MH_TQ,0,#FF0000,0
+MH_DIS,0,#0000FF,0
+pune_bfoot,Jan_2023.geojson,#d6541d,0
+Pune_new_green,Jan_2023.geojson,#4DAF4A,0
+Pune_new_roads,Jan_2023.geojson,#db9142,0
+Pune_new_main,Jan_2023.geojson,#db1e2a,0
+Pune_new_bound,Jan_2023.geojson,#000000,0
+hazard_raigad_district,Jan_2023.geojson,#000000,0
+hazard_raigad_taluqa,Jan_2023.geojson,#000000,0
+raigaid_taluka,raigad_taluqs_.geojson,#000000,0
+hazard_raigad_buildings_100,Jan_2023.geojson,#a7ca72,0
+hazard_raigad_buildings_50,Jan_2023.geojson,#d6541d,0
+hazard_raigad_buildings,Jan_2023.geojson,#808080,0
+kol_new_bound,Jan_2023.geojson,#000000,0
+kolhapur_bound_new,raigad_taluqs_.geojson,#000000,0
+kolhapur_2021_build,Jan_2023.geojson,#a7ca72,0
+kolhapur_2021_farm,Jan_2023.geojson,#d6541d,0
+kolhapur_2021_flood,Jan_2023.geojson,#19c2ff,0
+kolhapur_build,Jan_2023.geojson,#808080,0
+kolhapur_2023_flood,Jan_2023.geojson,#19c2ff,0
+kolhapur_2023_build,Jan_2023.geojson,#a7ca72,0
+beed_adm_bound,Join_Nov_2019.geojson,#000000,0
+beed_adm_jam,Join_Nov_2020.geojson,#08e8de,0
+beed_adm_vil,Nov_2021.geojson,#d6541d,0
+beed_adm_vil_out,Join_May_2020.geojson,#000000,0
+beed_veg_23,Join_May_2021.geojson,#4DAF4A,0
+beed_veg_24,May_2022.geojson,#4DAF4A,0
+beed_water_23,Jan_2023.geojson,#19c2ff,0
+beed_water_24,Jan_2023.geojson,#19c2ff,0
+bird_crop_class_banana,Jan_2023.geojson,#19c2ff,0
+bird_crop_class_cocount,Jan_2023.geojson,#d6541d,0
+bird_crop_class_paddy,Jan_2023.geojson,#E8E627,0
+bird_crop_class_nut,Jan_2023.geojson,#9f0000,0
+bird_crop_class_fallow,Jan_2023.geojson,#FF7F00,0
+bird_crop_class_barren,Jan_2023.geojson,#4DAF4A,0
+bird_crop_class_other,Jan_2023.geojson,#000000,0
+bird_crop_class_corn,Jan_2023.geojson,#db1e2a,0
+bird_crop_class_cane,Jan_2023.geojson,#a7ca72,0
+kol_fire_bound,Jan_2023,#000000,0
+kol_2018_02_13,Jan_2023.geojson,#db1e2a,0
+kol_2018_02_28,Jan_2023.geojson,#db1e2a,0
+kol_2018_03_05,Jan_2023.geojson,#db1e2a,0
+assam_floods_build,Jan_2023.geojson,#a7ca72,0
+assam_floods_region,Jan_2023.geojson,#000000,0
+Flood_Assam_vector,Jan_2023.geojson,#19c2ff,0
+baif_Dhamn,Jan_2023.geojson,#000000,0
+baif_Dhamn_Clip,Jan_2023.geojson,#19c2ff,0
+baif_Nala,Jan_2023.geojson,#d6541d,0
+baif_check,Jan_2023.geojson,#4DAF4A,0
+baif_orchads,Jan_2023.geojson,#d6541d,0
+baif_ponds,Jan_2023.geojson,#19c2ff,0
+baif_ponds_farm,Jan_2023.geojson,#19c2ff,0
+AssamFlood_Assam_Region,Jan_2023.geojson,#000000,0
+AssamFlood_Barpeta_ALL_Buildings,Jan_2023.geojson,#9f0000,0
+AssamFlood_Flooded_Buildings,Jan_2023.geojson,#00FFFF,0
+AssamFlood_Barpeta_Flood_Layer,Jan_2023.geojson,#19c2ff,0
+Panvel_2025_division,Division.shp,#a7ca72,0
+NodalPlot,Nodal_Plot.shp,#a3c4eb,0
+Nodal_Sector,Nodal_Sector.shp,#731c7b,0
+Panvel_CIDCO_Jurisdiction,Panvel_And_CIDCO_Jurisdiction.shp,#a75153,0
+Panvel_2025_prabhag,Panvel_2025/Baseline/Town_Planning/Prabhag.shp,#2dbf82,0
+Village-Boundary,Panvel_2025/Baseline/Town_Planning/Village-Boundary.shp,#4789e7,0
+Panvel_Village_Survey,Panvel_2025/Baseline/Town_Planning/Village_Survey.shp,#4789e7,0 
+Unauthorized_Nov_2019,Nov_2019.shp,#d6541d,0
+Unauthorized_May_2020,May_2020.shp,#08e8de,0
+Unauthorized_April_2021,April_2021.shp,#E8E627,0
+Unauthorized_Nov_2021, Nov_2021.shp,#EF14D1,0
+
+Panvel_2025_Authorised,Authorised.shp,#00FF00,0
+Panvel_Builtup_Change_Combined,Panvel_Builtup_Change_Combined.shp,#4E07E4,0
+Pending,Pending.shp,#FFFF00,0
+Shed,Shed.shp,#FFA500,0
+Total_Builtup_Jan_2023,Total_Builtup_Jan_2023.shp,#00D2B7,0
+Unauthorised,Unauthorised.shp,#FF0000,0
+
+Panvel_2025_Authorised,Authorised.shp,#00FF00,0
+Panvel_Builtup_Change_Combined,Panvel_Builtup_Change_Combined.shp,#4E07E4,0
+Pending,Pending.shp,#FFFF00,0
+Shed,Shed.shp,#FFA500,0
+Total_Builtup_Jan_2023,Total_Builtup_Jan_2023.shp,#00D2B7,0
+Unauthorised,Unauthorised.shp,#FF0000,0
+Panvel_2025_jusridiction,Panvel_Jurisdiction.shp,#a75153,0
+May_2025_Builtup_Change,May_2025_Change.shp,#8b2c13,0
+CIDCO_MIDC_Buildings,CIDCO_MIDC_Buildings.shp,#0DF90F,0
+Other_Authority,Other_Authority.shp,#00008B,0
+Panvel_2025_Buildings_New,Panvel_Buildings.shp,#5c0000,0
+Panvel_2025_Division1,Division1.shp,#ACE6FB,0
+Panvel_2025_Division2,Division2.shp,#E3ACFB,0
+Panvel_2025_Division3,Division3.shp,#E2EF82,0
+Panvel_2025_Division4,Division4.shp,#F1A261,0
+
+Unauthorised_Division_1,Unauthorised_Division_1.shp,#F1A261,0
+Unauthorised_Division_2,Unauthorised_Division_2.shp,#E2EF82,0
+Unauthorised_Division_3,Unauthorised_Division_3.shp,#E3ACFB,0
+Unauthorised_Division_4,Unauthorised_Division_4.shp,#ACE6FB,0
+
+
+Shed_Division_1,Shed_Division_1.shp,#A020B9,0
+Shed_Division_2,Shed_Division_2.shp,#4BB920,0
+Shed_Division_3,Shed_Division_3.shp,#B95020,0
+Shed_Division_4,Shed_Division_4.shp,#2091B9,0

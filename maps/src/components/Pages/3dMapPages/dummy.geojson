@@ -1,0 +1,45 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -73.9857, 40.7484 ]
+        },
+        "properties": {
+          "name": "Empire State Building",
+          "elevation": 15,  
+          "height": 381,
+          "num_floors": 127,
+          "floor_status": [
+            { "floor": 1, "status": "autharized" },
+            { "floor": 2, "status": "unautharized" },
+            { "floor": 3, "status": "autharized" },
+            { "floor": 4, "status": "unautharized" },
+            { "floor": 5, "status": "autharized" }
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [ -0.0754, 51.5055 ]
+        },
+        "properties": {
+          "name": "The Shard",
+          "elevation": 5,  
+          "height": 310,
+          "num_floors": 103,
+          "floor_status": [
+            { "floor": 1, "status": "autharized" },
+            { "floor": 50, "status": "unautharized" },
+            { "floor": 75, "status": "autharized" },
+            { "floor": 100, "status": "autharized" }
+          ]
+        }
+      }
+    ]
+  }
+  

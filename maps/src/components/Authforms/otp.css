@@ -1,0 +1,39 @@
+/* OTP.css */
+.otp-container {
+  color: white;
+  letter-spacing: 2px;
+  border: 2px solid #ffffff;
+  text-align: center;
+  background-color: transparent;
+}
+
+.otp-container:focus {
+  outline: none;
+  border: 2px solid #007bff;
+  background-color: transparent;
+}
+.otp-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 10px 60px 0px;
+}
+
+div:has(.otp-container) {
+  gap: 20px !important;
+}
+
+@media (max-width: 1468px) {
+  .otp-input {
+    padding: 10px 10px 0px 0px;
+  }
+}
+
+@media (max-width: 480px) {
+  .otp-input {
+    padding: 5px 10px;
+  }
+}

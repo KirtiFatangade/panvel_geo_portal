@@ -1,0 +1,98 @@
+.opt-div {
+  color: white;
+  width: max-content;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  font-size: medium;
+}
+
+.check-map {
+  height: 15px;
+  margin-right: 10px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(0, 0, 0);;
+  border-radius: 100px;
+
+}
+
+.baseline-cont {
+  margin-left: 10%;
+}
+
+.town-cont {
+  margin-left: 20%;
+}
+
+/* for collapse */
+details {
+  cursor: pointer;
+  width: fit-content;
+  margin-bottom: 30px;
+}
+
+summary {
+  font-size: 15px;
+  font-weight: bold;
+  list-style: none;
+  display: flex;
+  column-gap: 10px;
+  cursor: pointer;
+  color: white;
+  margin: 8px 0px 8px 10px;
+}
+
+summary::after {
+  content: '+';
+  transition: transform 0.3s ease;
+}
+
+details[open] summary::after {
+  content: '+';
+  transform: rotate(0deg);
+}
+
+.townS {
+  list-style-type:circle;
+  display: flex;
+  column-gap: 10px;
+  width: max-content;
+  cursor: pointer;
+  /* color: #66a7d3; */
+  color:white;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.townS::after {
+  content: '-';
+  color:#619fc9;
+  width:20px;
+  height:20px;
+  transition: transform 0.3s ease;
+}
+
+#townD[open] summary::after {
+  content: '-';
+  color:#397aa5;
+  width:20px;
+  height:20px;
+  transform: rotate(0deg);
+}
+
+.opt-div label {
+  font-size: 12px;
+  margin-top: 2px;
+  color: white;
+}
+
+.highlighted-drag{
+  background-color: gray;
+}

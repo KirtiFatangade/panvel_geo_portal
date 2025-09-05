@@ -1,0 +1,83 @@
+
+  /* hello */
+  
+  .opt-div{
+    color: white;
+    width: max-content; 
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    font-size: 15px;
+    
+    
+  }
+  .check-map{
+    height: 12px;
+    margin-right: 5px;
+  }
+  
+
+
+  
+  ::-webkit-scrollbar {
+    width: 5px;
+    }
+  ::-webkit-scrollbar-thumb {
+        background: black;  
+        border-radius: 100px;
+        
+        }
+        
+
+  .baseline-cont{
+    margin-left: 10%;
+  }
+  .town-cont{
+    margin-left: 10%;
+  }
+  /* for collapse */
+  
+  details {
+    cursor: pointer; 
+    width: fit-content;
+  }
+  
+  summary {
+    list-style: none; 
+    display: flex;
+    column-gap: 10px; 
+    cursor: pointer; 
+    color: white;
+    font-size: medium;
+    
+  }
+    
+  summary::after {
+      content: '+'; 
+      transition: transform 0.3s ease; 
+    }
+    
+  details[open] summary::after {
+        content: '-';
+        transform: rotate(0deg);
+      }
+  
+  #townS {
+        list-style: none; 
+        display: flex;
+        column-gap: 10px; 
+        width: max-content;
+        cursor: pointer; 
+        color: whitesmoke;
+        font-size: medium;
+      }
+        
+  #townS::after {
+          content: '+'; 
+          transition: transform 0.3s ease; 
+        }
+      
+  #townD[open] summary::after {
+            content: '-';
+            transform: rotate(0deg);
+          }

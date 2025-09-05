@@ -1,0 +1,244 @@
+.toolCont {
+  display: flex;
+  overflow-x: hidden;
+  transition: all 0.5s ease;
+  max-height: 40px;
+  overflow-y: hidden;
+  max-width: 800px;
+}
+
+.tool {
+  flex: 1;
+  width: 40px;
+  height: 40px;
+}
+ 
+/* .visible {
+    max-height: 40px; 
+  } */
+  .legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.toolsvis {
+  margin-top: 5px;
+  margin-left: 15px;
+  padding: 5%;
+  font-size: 12px;
+  background-color: black;
+  width: 160%;
+  color: white;
+  border-radius: 5px;
+}
+
+.toolclose {
+  position: relative;
+  color: red;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: 90%;
+}
+
+.overlay {
+  width: 80vw;
+  height: 100vh;
+  border: 2px solid blue;
+  pointer-events: none;
+}
+
+.minimized {
+  width: 100px;
+  /* Set the minimized width */
+  height: 50px;
+  /* Set the minimized height */
+  /* Add any other styles to minimize the appearance */
+}
+
+
+@keyframes slideInTopLeft {
+  from {
+    transform: translate(-100%, -100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInTopRight {
+  from {
+    transform: translate(100%, -100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInBottomLeft {
+  from {
+    transform: translate(-100%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInBottomRight {
+  from {
+    transform: translate(100%, 100%);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
+.corner-modal {
+  position: absolute;
+  z-index: 900;
+  width: max-content; 
+  height: cal(100vh-200px);
+  background-color: rgba(0, 0, 0, 0.8); 
+  color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  padding: 5px 5px 20px;
+  animation-duration: 1s; 
+  animation-fill-mode: forwards; 
+}
+
+#modal-1,.top-left {
+  top: 70px;
+  left: 10px;
+  animation-name: slideInTopLeft;
+}
+
+.shifted-top-left {
+  top: 70px;
+  left: 350px !important;
+  animation-name: slideInTopLeft;
+}
+
+#modal-2,.top-right {
+  top: 70px;
+  right: 70px;
+  animation-name: slideInTopRight;
+}
+
+#modal-3,.bottom-left {
+  bottom: 10px;
+  left: 10px;
+  width: 200px !important;
+  animation-name: slideInBottomLeft;
+  background-color: transparent !important;
+}
+
+.shifted-bottom-left {
+  bottom: 10px;
+  left: 350px;
+  width: 200px !important;
+  animation-name: slideInBottomLeft;
+  background-color: transparent !important;
+}
+
+/* .bottom-right {
+  bottom: 10px;
+  right: 10px;
+  animation-name: slideInBottomRight;
+  background-color: transparent !important;
+} */
+
+.modal-overlay {
+  background: transparent; 
+    /* border: 1px solid #161616; */
+}
+
+
+/* 
+@media screen and (max-width: 1114px) {
+  .tool-group {
+    width: 200px;
+    height: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+
+  .toolCont {
+    flex-direction: column;
+    max-width: 50px;
+    display: flex; 
+    overflow-x: hidden;
+    transition: all 0.1s ease;
+    overflow-y: scroll;
+  }
+
+  .toolsvis {
+    margin-top: -10px;
+    margin-left: 50px;
+    padding: 4% 6% 5%;
+    font-size: 12px;
+    background-color: rgb(36, 35, 35);
+    width: 100%;
+    color: white;
+  }
+} */
+
+@media screen and (min-width: 200px) and (max-width: 770px) {
+  .tool-group{
+    max-width: 200px;
+    max-height: 600px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: -10px;
+  }
+
+
+  .toggle-icon {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toolCont {
+    flex-direction: column;
+    max-width: 50px;
+    max-height: 600px;
+    display: block;
+    overflow-x: hidden;
+    transition: all 0.1s ease;
+    /* overflow-y: scroll; */
+  }
+
+  .toolsvis {
+    margin-top: -10px;
+    margin-left: 80px;
+    padding: 4%;
+    font-size: 12px;
+    background-color: rgb(36, 35, 35);
+    width: 100%;
+    color: white;
+  }
+  /* .toolCont{
+    height: inherit;
+  } */
+}
+
+
+
+/* vector tools */

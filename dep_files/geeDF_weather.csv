@@ -1,0 +1,5 @@
+dataset,min,max,bands,palette,display_name,is_featureCollection,is_image,address,start_date,gamma
+Daily Precipitation rate in mm/hr,0.0,10.0,"['hourlyPrecipRate']","['1621a2', 'ffffff', '03ffff', '13ff03', 'efff00', 'ffb103', 'ff2300']",Daily Precipitation rate in mm/hr,0,0,JAXA/GPM_L3/GSMaP/v7/operational,0,0
+Near surface air temperature,240.86886596679688,306.0568542480469,"['Tair_f_tavg']","['black', 'blue', 'purple', 'cyan', 'green', 'yellow', 'red']",Near surface air temperature,0,0,NASA/FLDAS/NOAH01/C/GL/M/V001,0,0
+Near surface wind speed,0.0,15.0,"['Wind_f_tavg']","['black', 'blue', 'purple', 'cyan', 'green', 'yellow', 'red']",Near surface wind speed,0,0,NASA/FLDAS/NOAH01/C/GL/M/V001,0,0
+Surface Pressure in Pascal,53000,105000,"['Psurf_f_tavg']","['black', 'blue', 'purple', 'cyan', 'green', 'yellow', 'red']",Surface Pressure in Pascal,0,0,NASA/FLDAS/NOAH01/C/GL/M/V001,0,0

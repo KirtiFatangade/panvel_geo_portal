@@ -1,0 +1,404 @@
+/* .login-layout {
+  position: relative;
+}
+
+.login-layout::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(3px);
+  z-index: -1;
+}
+
+.password-wrapper {
+  width: 100%;
+}
+
+.input-wrapper {
+  display: flex;
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+}
+
+.input-wrapper .input {
+  padding: 0px;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+.input-wrapper button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.form-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f3f3f3;
+  opacity: 1;
+  height: 90vh;
+  margin: 0% 20%;
+}
+
+.forml {
+  width: 400px;
+  padding: 15px 50px 50px;
+  background-color: #272727;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 0% 20%;
+}
+
+.forml label {
+  margin: 0%;
+  display: block;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  color: #acacac;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.forml .input {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 12px;
+  border: none;
+  border-bottom: 2px solid #acacac;
+  background-color: transparent;
+  border-radius: 0px;
+  font-size: 14px;
+  box-sizing: border-box;
+  color: rgb(174, 171, 171);
+  transition: border-color 0.3s ease;
+}
+
+.forml .input:focus {
+  outline: none;
+  font-size: 15px;
+}
+
+.forml .login {
+  width: 100%;
+  padding: 8px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #21558b;
+  color: white;
+  font-size: 13px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: border-color 0.3s ease;
+}
+
+.forml .login:hover,
+.okbutton:hover {
+  background-color: #204c7c;
+  border-color: #042b55;
+  ;
+}
+
+.forml .register {
+  display: inline-block;
+  width: 100%;
+  margin-top: 15px;
+  padding: 9px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+  background-color: #21558b;
+  color: white;
+  font-size: 13px;
+  font-weight: bolder;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  transition: border-color 0.3s ease;
+}
+
+.forml .register:hover {
+  text-decoration: none;
+  border-color: #042b55;
+}
+
+
+.login {
+  margin-top: 2vh;
+} */
+
+* {
+  font-family: 'Lato';
+  margin: 0%;
+  padding: 0%;
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  margin: 0% !important;
+  overflow: hidden;
+  background-color: black;
+}
+
+.left-side {
+  flex: 11;
+  height: 100vh;
+}
+
+.left-side video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.right-side {
+  flex: 5;
+  padding: 1px 40px;
+  /* background-image: url(../../../public/starsspace.png); */
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side .mapboxgl-canvas {
+  width: 100% !important;
+  /* Confined to the parent container */
+  height: 100% !important;
+  /* Confined to the parent container */
+}
+
+.logo img {
+  width: 300px;
+  margin-bottom: 0px;
+}
+
+.login-form {
+  width: 100%;
+  max-height: 75vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  padding: 0% 9% 0% 9%;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="number"],
+.login-form input[type="password"] {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 20px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+}
+
+.phone-input {
+  display: flex;
+  flex-direction: row;
+}
+
+.phone-input .country-code {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  background-color: transparent;
+  appearance: none;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.login-form input:-webkit-autofill {
+  background-color: transparent !important;
+  color: black !important;
+  -webkit-box-shadow: 0 0 0px 1000px transparent !important;
+  box-shadow: 0 0 0px 1000px transparent !important;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.pass-container {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid grey;
+  outline: none;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.pass-container .type-pass {
+  flex: 8;
+  padding: 7px !important;
+  margin: 0px !important;
+  outline: none !important;
+  border: none !important;
+}
+
+.pass-container button {
+  flex: 1;
+  background-color: transparent;
+}
+
+.pass-container button:hover {
+  background-color: transparent;
+}
+
+.pass-section {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: center;
+  margin: 0px 0px 20px 0px;
+  color: white;
+  font-size: 14px;
+}
+
+.pass-section span {
+  flex: 6;
+}
+
+.pass-section .reset {
+  flex: 3;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.pass-section .reset:hover {
+  text-decoration: underline;
+}
+
+.login-form .button {
+  border: 2px solid #007bff;
+  background-color: transparent;
+  color: white;
+  padding: 2%;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
+
+.login-form .button:hover {
+  border-color: #014a98;
+  background-color: transparent;
+}
+
+.login-form .button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  background-color: transparent;
+  color: #666666;
+}
+
+.signup-link {
+  margin-top: 20px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+
+.select-plan {
+  width: 100%;
+  padding: 7px;
+  margin-bottom: 20px;
+  border: 1px solid #999;
+  border-radius: 7px;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  appearance: auto;
+}
+
+.select-plan option,
+.swipe-optons option {
+  background-color: black;
+}
+
+
+.login-form input[type="radio"] {
+  margin-left: 5%;
+}
+
+.account-type-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.account-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.account-radio-input {
+  margin-right: 8px;
+}
+
+.account-option-inline {
+  display: inline-flex;
+  margin-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .left-side {
+    flex: 0;
+  }
+
+  .right-side {
+    flex: 12;
+  }
+
+  .pass-section .reset {
+    flex: 5;
+  }
+}
+
+
+.select-plan option,
+.swipe-options option {
+  background-color: black; 
+}
+
+.paysuccess-parent {
+  background-color: #314149;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  align-content: center;
+  justify-items: center;
+}
+
+.paysuccess-parent .succes-box {
+  background-color: rgb(235, 235, 235);
+  padding: 2% 4%;
+  border-radius: 10px;
+  color: #1C262B;
+  box-shadow: rgba(0, 0, 0, 0.261) 0px 1px 80px 10px; 
+}
+
+.password-condition-note{
+  background-color: transparent;
+  border-left: 4px solid green;
+  color: white;
+  padding: 5px;
+}

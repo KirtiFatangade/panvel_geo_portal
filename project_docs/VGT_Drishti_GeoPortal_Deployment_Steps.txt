@@ -1,0 +1,33 @@
+VGT Drishti GeoPortal Deployment Steps
+
+0. Check for running processes: ps aux | grep gunicorn
+1. Stop Existing Application:
+   Terminate the current Gunicorn process with:
+   ps aux | grep 'gunicorn -w 4 -b 0.0.0.0:8001 mapshow.wsgi:application' | awk '{print $2}' | xargs kill -9
+
+2. Directory Setup:
+   Navigate to the working directory:
+   cd /home/vgt-geo-web-app-react/
+
+3. Backend Configuration:
+   In urls.py, add:
+   re_path(r'^.*$', index, name='index')
+
+4. Frontend Deployment:
+   - Configure Files:
+     - Update files variable in maps/src/components/static.js.
+     - Update files variable in map_app/stat.py.
+   - Build and Move Files:
+     - Run:
+       npm run build
+     - Move maps/build/static to maps/build.
+     - Transfer maps/build to the main application folder containing manage.py.
+   - Collect Static Files:
+     python3 manage.py collectstatic
+
+5. Start the Application:
+   Launch Gunicorn:
+   gunicorn -w 4 -b 0.0.0.0:8001 mapshow.wsgi:application --timeout 3600 > gunicorn.log 2>&1 &
+
+6. Restart Nginx:
+   sudo systemctl restart nginx

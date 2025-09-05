@@ -1,0 +1,24 @@
+details {
+    cursor: pointer;
+    width: -moz-fit-content;
+    width: max-content;
+    margin-bottom: 0px !important;
+} 
+
+.sidepanel-container .cancel, .sidepanel-container .btn-add{
+    padding: 0px 5px;
+    height:40px;
+    margin: 0%;
+    background: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;    
+    border-radius: 5px;
+  }
+  .sidepanel-container .btn-add{
+    color: green;
+  }
+  .sidepanel-container .cancel:hover {
+    background-color: transparent;
+   
+  }

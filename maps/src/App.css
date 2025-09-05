@@ -1,0 +1,85 @@
+*{
+  font-family: "Indeed Sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, "Liberation Sans", Roboto, Noto, sans-serif;
+}
+
+.Toastify__toast-container {
+  z-index: 9999;
+}
+
+/* Organization Form */
+.form-container {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 0%;
+  padding: 25px 100px;
+  background-color: #f9f9f9;
+  color: #000000;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.input,
+.textarea,
+.file-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  box-sizing: border-box; 
+}
+#number:hover{
+ appearance: none;
+}
+.textarea {
+  width: 100%; 
+  min-height: 100px; /* Allow vertical resizing */
+}
+
+.file-input {
+  margin-top: 5px;
+}
+
+.submit-btn,
+.okbutton {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover,
+.okbutton:hover {
+  background-color: #0056b3;
+}
+
+.success-msg {
+  color: green;
+  font-size: 18px;
+  margin-top: 20px;
+  text-align: center;
+}
+.welcmpage{ 
+  color: rgb(255, 0, 0);
+  background-color: transparent;
+  font-size: 20px ;
+  margin-left: 0px;
+}

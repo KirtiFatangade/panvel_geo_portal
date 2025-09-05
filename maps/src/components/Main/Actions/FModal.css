@@ -1,0 +1,48 @@
+.custom-modal-edit-feature {
+    padding: 20px 5px;
+    max-width: 500px;
+}
+
+.custom-modal-edit-feature .form-group {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 1px;
+}
+
+.custom-modal-edit-feature .form-group label {
+    flex: 1;
+    text-align: left;
+    margin-right: 0px;
+    font-weight: 500;
+}
+
+.custom-modal-edit-feature .form-group input,
+.custom-modal-edit-feature .form-group select {
+    flex: 2;
+    width: 100%; 
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.custom-modal-edit-feature .form-group-checkbox label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.custom-modal-edit-feature button {
+    align-self: center;
+    padding: 10px 20px;
+    background-color: #003f9e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.custom-modal-edit-feature button:hover {
+    background-color: #0056b3;
+}
