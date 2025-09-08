@@ -13,11 +13,7 @@ import FModal from "./fModal";
 import Modal from "react-modal";
 import { HOST } from "../../host";
 import DynFeat from "./DynFeature";
-import SidebarTabs from "../sidebarTabs";
-import InfoWindow from "./InfoWindow";
 import datasetInfoDictionary from "./Info";
-import { CompositeLayer } from "deck.gl";
-import { combine } from "@turf/turf";
 
 const loadComponent = (comp) => {
   return lazy(() => import(`../../static/${comp}`));
